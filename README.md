@@ -1,4 +1,8 @@
-# musical_instrument_classification
-In this [notebook](https://github.com/jonhillman/musical_instrument_classification/blob/master/musical-instrument-classification.ipynb) I explore musical instrument classification from audio using transfer learning leveraging VGG-19. Environment saved to musical_instrument_classification_env.yml.
-
-Audio data not included to save space, all audio downloading and processing is handled in the notebook.
+# Musical Instrument Classification
+In this notebook I explore musical instrument classification from audio using transfer learning leveraging [VGG-19](https://www.tensorflow.org/api_docs/python/tf/keras/applications/VGG19). The following is covered:
+* Downloading samples from YouTube
+* Reading sections of audio files into multiple sample arrays
+* Generating mel-spectrograms for each sample
+* Extracting 128-dimensional features from the mel-spectrograms using VGG-19
+* Building test/train split from features array
+* Classification with Linear Support Vector Machine (LinearSVM)
