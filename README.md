@@ -1,5 +1,5 @@
 # Musical Instrument Classification
-In this notebook I explore musical instrument classification from audio using transfer learning leveraging [VGG-19](https://www.tensorflow.org/api_docs/python/tf/keras/applications/VGG19). The following is covered:
+In this [notebook](https://github.com/jonhillman/musical_instrument_classification/blob/master/musical-instrument-classification.ipynb) I explore musical instrument classification from audio using transfer learning leveraging [VGG-19](https://www.tensorflow.org/api_docs/python/tf/keras/applications/VGG19). The following is covered:
 * Downloading samples from YouTube
 * Reading sections of audio files into multiple sample arrays
 * Generating mel-spectrograms for each sample
